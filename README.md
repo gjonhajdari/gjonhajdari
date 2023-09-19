@@ -2,6 +2,8 @@
   <img src="header.svg" style="width: 100%;" alt="Click to see the source">
 </div>
 
+<br>
+
 <p align="center" style="display: flex; justify-content: center; gap: 15px;">
 	<a href="mailto:business.gjonhajdari@gmail.com">
 		<img alt="Gmail" src="images/Gmail.png" target="_new" width="40"/>
