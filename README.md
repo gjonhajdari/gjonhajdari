@@ -1,9 +1,6 @@
-<h3 align="center">
-
-    👋🏻 Hey there, I'm Gjoni!
-    I'm a Software Developer & UI/UX Designer
-
-</h3>
+<div style="width: 100%; height: 180px">
+  <img src="header.svg" style="width: 100%;" alt="Click to see the source">
+</div>
 
 <p align="center" style="display: flex; justify-content: center; gap: 15px;">
 	<a href="mailto:business.gjonhajdari@gmail.com">
