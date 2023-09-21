@@ -12,21 +12,6 @@
         box-sizing: border-box;
       }
 
-      .body {
-        <!-- background: #FDC830;  /* fallback for old browsers */
-				background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
-				background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ -->
-				background-image: linear-gradient(to right, #D4145A 0%, #FBB03B 100%);
-        height: 100vh;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-				font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        border-radius: 0.75rem;
-				color: #FFFFFF;
-      }
-
       .container {
         height: calc(100% - 10px);
         width: calc(100% - 10px);
@@ -36,6 +21,39 @@
         align-items: center;
 				gap: 5px;
       }
+
+			.body {
+				background: linear-gradient(270deg, #8445c3, #d838ab, #d4145a, #fbb03b);
+				background-size: 300% 300%;
+				height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+				font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        border-radius: 0.75rem;
+				color: #FFFFFF;
+
+				-webkit-animation: InfiniteScroll 10s linear infinite;
+				-moz-animation: InfiniteScroll 10s linear infinite;
+				animation: InfiniteScroll 10s linear infinite;
+			}
+
+			@-webkit-keyframes InfiniteScroll {
+				0%{background-position:0% 50%}
+				50%{background-position:100% 50%}
+				100%{background-position:0% 50%}
+			}
+			@-moz-keyframes InfiniteScroll {
+				0%{background-position:0% 50%}
+				50%{background-position:100% 50%}
+				100%{background-position:0% 50%}
+			}
+			@keyframes InfiniteScroll {
+				0%{background-position:0% 50%}
+				50%{background-position:100% 50%}
+				100%{background-position:0% 50%}
+			}
       
     </style>
     <div class='body'>
