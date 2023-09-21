@@ -34,9 +34,9 @@
         border-radius: 0.75rem;
 				color: #FFFFFF;
 
-				-webkit-animation: InfiniteScroll 10s linear infinite;
-				-moz-animation: InfiniteScroll 10s linear infinite;
-				animation: InfiniteScroll 10s linear infinite;
+				-webkit-animation: InfiniteScroll 15s ease infinite;
+				-moz-animation: InfiniteScroll 15s ease infinite;
+				animation: InfiniteScroll 15s ease infinite;
 			}
 
 			@-webkit-keyframes InfiniteScroll {
