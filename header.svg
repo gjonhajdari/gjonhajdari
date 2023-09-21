@@ -12,16 +12,6 @@
         box-sizing: border-box;
       }
 
-      .container {
-        height: calc(100% - 10px);
-        width: calc(100% - 10px);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-				gap: 5px;
-      }
-
 			.body {
 				background: linear-gradient(270deg, #8445c3, #d838ab, #d4145a, #fbb03b);
 				background-size: 300% 300%;
@@ -39,6 +29,22 @@
 				animation: InfiniteScroll 15s ease infinite;
 			}
 
+			.container {
+        height: calc(100% - 10px);
+        width: calc(100% - 10px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+				gap: 10px;
+      }
+
+			.container h2 {
+				text-align: center;
+				font-size: 3.5vw;
+				line-height: 1.75rem;
+			}
+
 			@-webkit-keyframes InfiniteScroll {
 				0%{background-position:0% 50%}
 				50%{background-position:100% 50%}
@@ -53,6 +59,13 @@
 				0%{background-position:0% 50%}
 				50%{background-position:100% 50%}
 				100%{background-position:0% 50%}
+			}
+
+			@media only screen and (max-width: 500px) {
+				.container h2 {
+					font-size: 5vw;
+					line-height: 1.5rem;
+				}
 			}
       
     </style>
