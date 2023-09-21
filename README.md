@@ -4,19 +4,23 @@
 
 <br>
 
-<p align="center" style="display: flex; justify-content: center; gap: 15px;">
+<p align="center">
 	<a href="mailto:business.gjonhajdari@gmail.com">
 		<img alt="Gmail" src="images/Gmail.png" target="_new" width="40"/>
 	</a>
+	&nbsp;&nbsp;
 	<a href="https://www.linkedin.com/in/gjonhajdari/">
 		<img alt="LinkedIn" src="images/Linkedin.png" target="_new" width="40"/>
 	</a>
+	&nbsp;&nbsp;
 	<a href="https://www.instagram.com/chonvision">
 		<img alt="Instagram" src="images/Instagram.png" target="_new" width="40"/>
 	</a>
+	&nbsp;&nbsp;
 	<a href="http://discord.com/users/525824250892910615">
 		<img alt="Gmail" src="images/Discord.png" target="_new" width="40"/>
 	</a>
+	&nbsp;&nbsp;
 	<a href="https://open.spotify.com/user/xhye4z3apvfffi29ub8jjlvuw">
 		<img alt="Gmail" src="images/Spotify.png" target="_new" width="40"/>
 	</a>
