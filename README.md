@@ -2,6 +2,10 @@
   <img src="header.svg" style="width: 100%;" alt="Click to see the source">
 </div>
 
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=gjonhajdari&theme=jolly&hide_border=true&border_radius=16">
+</p>
+
 <br>
 
 <p align="center">
@@ -25,6 +29,7 @@
 		<img alt="Gmail" src="images/Spotify.png" target="_new" width="40"/>
 	</a>
 </p>
+
 
 <!-- <h2>Technical Skills</h2> -->
 
