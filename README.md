@@ -23,7 +23,7 @@
 		<img alt="Gmail" src="images/Spotify.png" target="_new" width="50"/>
 	</a>
 	&nbsp;&nbsp;
-	<a href="http://discord.com/users/525824250892910615">
+	<a href="mailto:gjonhajdari1@gmail.com">
 		<img alt="Email" src="images/Email.png" target="_new" width="50"/>
 	</a>
 </p>
